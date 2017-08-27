@@ -8,5 +8,6 @@ namespace Kural.JobPostsLibrary
     public interface IJobProvider
     {
         IEnumerable<JobPost> ExtractJobs(string keyword);
+        //Now a branch for feature
     }
 }
