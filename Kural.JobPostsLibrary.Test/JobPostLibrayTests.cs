@@ -14,6 +14,7 @@ namespace Kural.JobPostsLibrary.Test
 
             try
             {
+                //Add a comment
                 var result = provider.ExtractJobs("");
             }
             catch (ArgumentNullException ex)
